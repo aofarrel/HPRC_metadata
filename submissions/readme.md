@@ -46,7 +46,7 @@
 | UCSC_HPRC_AMED_collaboration | ✅ | ✅ | 44 | 44 | Ensure library_ID has `NA` names, not `GM` names | UCSC_HPRC_AMED_collaboration_data_table__final.csv | |
 | UCSC_HPRC_nanopore_Year2 | ❌ | ⚠️ | 350 | 175 | 350 | data table is missing half the data? | basecaller_version | UCSC_HPRC_nanopore_Year2/UCSC_HPRC_nanopore_Year2_data_table__final.csv |
 | UCSC_HPRC_nanopore_Year2_R10 | ❌ | ⚠️🅰️ | 206 | 103 | 103 | - | Inconsistencies: 'data_type', 'design_description' | UCSC_HPRC_nanopore_Year2_R10_data_table__final.csv |
-| UCSC_HPRC_nanopore_Year3 | ❌ | ⚠️ |  |  | Blocked by file count mismatch | | |
+| UCSC_HPRC_nanopore_Year3 | ❌ | ⚠️ |  |  |  | Blocked by file count mismatch | | |
 | UCSC_HPRC_nanopore_Year4 | ✅ | ✅ | 388 | 388 | 388 | AWS transfer seems to be missing some files | - | UCSC_HPRC_nanopore_Year4_data_table__final.csv |
 | UCSC_HPRC_ONT_Y1_WTOPUP_GUPPY6 | 🅰️ | ✅ | 374 | 374 | Data table is missing >100 files, but we have a submission file for them. Ensure that our final data table is not missing these samples! |  | |
 | UCSC_HPRC_PLUS_nanopore | ⚠️ | ⚠️ | 129 | 43 | 43 |  design_description | UCSC_HPRC_PLUS_nanopore_data_table__final.csv |
@@ -54,7 +54,7 @@
 | UW_HPRC_HiFi_Y1 | ⚠️ | ⚠️ | 46 | 44?! | 46 | file mismatch (see readme), polymerase_version, notes | UW_HPRC_HiFi_Y1/UW_HPRC_HiFi_Y1_data_table__final.csv |
 | UW_HPRC_HiFi_Y2 | 🅰️ | ✅ | 82 | 80 | 80 | **might be double-uploaded? see readme** | UW_HPRC_HiFi_Y2_data_table__final.csv |
 | UW_HPRC_HiFi_Y3 | 🅰️ | ⚠️ | 278 | 91 | 91 | possible SRA name change but now I don't think so | | |
-| UW_HPRC_HiFi_Y4_AND_Y3_Topoff | 🅰️ | ✅ | 848 | 212 | Massive file count mismatch |  | UW_HPRC_HiFi_Y4_AND_Y3_Topoff_data_table__final.csv |
+| UW_HPRC_HiFi_Y4_AND_Y3_Topoff | 🅰️ | ❓ | 848 | 212 | 212 | Massive file count mismatch |  | UW_HPRC_HiFi_Y4_AND_Y3_Topoff_data_table__final.csv |
 | UW_HPRC_Y5_Kinnex | - | - | 94 | - | Deprioritized due to being transcriptomic | - | - |
 | WUSTL_HPRC_HiFi_Year1 | ❌ | ✅ | 160 | 80 | 80 | **Subreads were submitted to SRA, see readme** | not checked, see readme | WUSTL_HPRC_HiFi_Year1_post_sra_metadata__NOT_SUBREADS.tsv |
 | WUSTL_HPRC_HiFi_Year1_TopUp | ✅ | ✅ | 72 | 36 | 36 |36 | - | - | WUSTL_HPRC_HiFi_Year1_TopUp_data_table__final.csv | 
